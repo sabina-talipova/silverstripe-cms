@@ -3,7 +3,7 @@ Feature: Publish a page
   I want see versioned badge on page with draft and modified versioned child objects
 
   Background:
-    Given a "test page versioned object" "My Page" with "URLSegment"="my-page"
+    Given a "Test Page Versioned Object" "My Page" with "URLSegment"="my-page"
     And the "page" "My Page" is not published
     And the "group" "EDITOR" has permissions "Access to 'Pages' section"
     And I am logged in as a member of "EDITOR" group
